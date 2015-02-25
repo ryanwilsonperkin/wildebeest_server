@@ -1,10 +1,19 @@
 <html>
 <head>
+  <title>Wildebeest Move Generator</title>
 </head>
 <body>
+  <h1>Wildebeest Move Generator</h1>
+  <p>This webservice accepts a board.txt file and produces next valid boards.</p>
+  <h2>Instructions</h2>
+  <ul>
+    <li>Copy the contents of your board.txt into the text area below (including the three numbers at the end)</li>
+    <li>Press submit</li>
+    <li>The website will display all available next board files, separated by spaces</li>
+  </ul>
   <form action="query" method="post">
-    <label for="board">Board:</label>
-    <textarea name="board" rows="9" cols="8"></textarea>
+    <label for="board" style="display:block;">Board:</label>
+    <textarea name="board" rows="13" cols="20" style="display:block;"></textarea>
     <input name="submit" type="submit"/>
   </form>
 </body>
