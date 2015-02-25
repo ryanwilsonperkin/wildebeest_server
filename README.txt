@@ -8,6 +8,6 @@ Installation
 ---
 
 - Run "pip install web.py" (or equivalent) to install the web.py python module.
-- Change the PROG_NAME global variable to the canonical pathname of the wildebeest executable
+- Change the PROG_NAME variable in tool.py to the canonical pathname of the wildebeest executable
 - Run "python server.py" to run the web server on localhost port 8080
 - See the instructions on http://webpy.org/install for details on configuring web server gateway
