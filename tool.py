@@ -68,7 +68,6 @@ def get_results(board):
 
     # Create a new temp directory
     tmp_dir = tempfile.mkdtemp()
-    print tmp_dir
 
     # Save board.txt to temp directory
     board_filename = os.path.join(tmp_dir, 'board.txt')
