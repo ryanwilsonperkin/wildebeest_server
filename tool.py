@@ -15,7 +15,7 @@ def is_valid(board):
         lines 10-12) integers
     """
     # Remove trailing new lines
-    board = board.rstrip('\n')
+    board = board.rstrip()
 
     # Split board into lines
     lines = board.split('\n')
